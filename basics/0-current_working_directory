@@ -1,3 +1,2 @@
 #!/bin/bash
-dir=$(pwd)
-echo $(realpath $dir)
+dir=$(pwd) 
