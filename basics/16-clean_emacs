@@ -1,2 +1,2 @@
 #!/bin/bash
-rm | grep "^[~]" .
+find . -type f -name '~' -delete
