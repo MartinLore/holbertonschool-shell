@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod -R 111 /holbertonschool-shell/permissions
+find /holbertonschool-shell/permission -type d -exec chmod 111 {} \;
