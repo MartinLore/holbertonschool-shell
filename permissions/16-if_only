@@ -1,2 +1,2 @@
 #!/bin/bash
-find /holbertonschool-shell/permissions/hello -exec chown --from=vincent  guillaume {} +\
+chown -R --from=:guillaume :vincent /holbertonschool-shell/permissions/hello
