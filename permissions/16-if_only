@@ -1,0 +1,2 @@
+#!/bin/bash
+find /holbertonschool-shell/permissions/hello -exec chown --from=guillaume vincent {} +\
